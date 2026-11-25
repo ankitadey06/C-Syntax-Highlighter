@@ -60,5 +60,14 @@ C_Syntax_Highlighter_PBL/
 ## Limitations
 This is an educational lexer, not a complete C compiler. It does not validate C grammar or types. Preprocessor directives are highlighted as one token per line, and the lexer supports common C lexical forms rather than every compiler-specific extension.
 
-## Author
-Add your name, roll number, class and institution here before submission.
+## Project Submitted By
+
+## Project Submitted By
+
+- **Student Name:** Ankita Dey
+- **University:** Brainware University
+- **Department:** Computer Science and Engineering
+- **Roll Number:** 24103070191
+- **Student Code:** BWU/BTS/24/212
+- **Subject:** Compiler Design
+- **Project Title:** C Syntax Highlighter
