@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>example.c</title>
+<style>
+body { margin: 0; padding: 28px; background: #10151f; color: #e5e9f0;
+       font-family: Arial, sans-serif; }
+h1 { color: #89ddff; font-size: 22px; }
+.editor { background: #1b2330; border: 1px solid #354052; border-radius: 10px;
+          padding: 22px; overflow-x: auto; }
+pre { margin: 0; white-space: pre; tab-size: 4; }
+code { font: 14px/1.7 Consolas, "Courier New", monospace; }
+.keyword { color: #c792ea; }
+.identifier { color: #e5e9f0; }
+.builtin { color: #82aaff; }
+.number { color: #f78c6c; }
+.string { color: #c3e88d; }
+.char { color: #c3e88d; }
+.comment { color: #697386; }
+.operator { color: #89ddff; }
+.punctuation { color: #f0c674; }
+.preprocessor { color: #ffcb6b; }
+.unknown { color: #ff5370; }
+.legend { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 14px;
+          font-size: 13px; color: #c5cedb; }
+</style>
+</head>
+<body>
+<h1> C Program — Syntax Highlighting Preview </h1>
+<div class="editor"><pre><code><span class="preprocessor">#include &lt;stdio.h&gt;</span>
+
+<span class="comment">// Program to calculate the sum of two integers</span>
+<span class="keyword">int</span> <span class="identifier">main</span><span class="punctuation">(</span><span class="keyword">void</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+    <span class="keyword">int</span> <span class="identifier">first</span> <span class="operator">=</span> <span class="number">12</span><span class="punctuation">;</span>
+    <span class="keyword">int</span> <span class="identifier">second</span> <span class="operator">=</span> <span class="number">30</span><span class="punctuation">;</span>
+    <span class="keyword">int</span> <span class="identifier">total</span> <span class="operator">=</span> <span class="identifier">first</span> <span class="operator">+</span> <span class="identifier">second</span><span class="punctuation">;</span>
+
+    <span class="builtin">printf</span><span class="punctuation">(</span><span class="string">&quot;Sum = %d\n&quot;</span><span class="punctuation">,</span> <span class="identifier">total</span><span class="punctuation">)</span><span class="punctuation">;</span>
+    <span class="keyword">return</span> <span class="number">0</span><span class="punctuation">;</span>
+<span class="punctuation">}</span>
+</code></pre></div>
+<div class="legend">
+<span class="keyword">Keywords</span><span class="builtin">Built-ins</span>
+<span class="identifier">Identifiers</span><span class="number">Numbers</span>
+<span class="string">Strings</span><span class="comment">Comments</span>
+<span class="operator">Operators</span><span class="preprocessor">Preprocessor</span>
+</div>
+</body>
+</html>
