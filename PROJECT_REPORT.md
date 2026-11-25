@@ -78,3 +78,12 @@ The project demonstrates how a compiler's lexical analysis stage identifies and 
 - Python Documentation: https://docs.python.org/3/
 - ISO C language standard (for C lexical elements)
 - Compiler Design course notes
+### Submitted By
+
+**Student Name:** Ankita Dey  
+**University:** Brainware University  
+**Department:** Computer Science and Engineering  
+**Roll Number:** 24103070191  
+**Student Code:** BWU/BTS/24/212  
+**Subject:** Compiler Design  
+**Project Title:** C Syntax Highlighter
